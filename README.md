@@ -27,7 +27,7 @@ To install `Compose`, use:
 
 The `seed node` (`DC1N1`) exposes ports `9042, 9160` so you can connect from your development host using a recent download of Cassandra:
 
-    $ cqlsh localhost 9042
+    $ cqlsh 127.0.0.1 9042 --cqlversion 3.4.4
 
 both arguments **are required**.
 
